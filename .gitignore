@@ -1,0 +1,25 @@
+# Private device artifacts must never enter this repository.
+private/
+backups/
+backup/
+work/
+generated/
+reports/
+*.apk
+*.apks
+*.xapk
+*.img
+*.bin
+*.dex
+*.jar
+*.keystore
+*.jks
+*.pem
+*.key
+adbkey*
+.env*
+__pycache__/
+*.pyc
+.DS_Store
+.venv/
+dist/

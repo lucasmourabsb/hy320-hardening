@@ -1,0 +1,16 @@
+HY320 Hardening
+
+The original host utilities, Android guard scripts, and documentation in this
+repository were prepared from a device-hardening case study and are licensed
+under the MIT license in LICENSE.
+
+The indicator dataset records factual domain names and an IP address attributed
+to public threat-research sources. Source URLs and the review date accompany
+the data. It is not a copy of a threat-research article, an endorsement by those
+researchers, or a continuously updated threat feed.
+
+CleanYourTV by Gathin23 and cleanyourprojector by tqhit are referenced projects.
+Their source code, launchers, licenses, binaries and firmware are not included.
+Android, Linux, ADB, HUMAN Security and application names belong to their
+respective owners. No proprietary vendor images or application packages are
+distributed here.
