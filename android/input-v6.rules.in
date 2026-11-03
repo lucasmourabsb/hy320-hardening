@@ -1,0 +1,13 @@
+*filter
+:HY320_IN6 - [0:0]
+-F HY320_IN6
+-A HY320_IN6 -i lo -j RETURN
+-A HY320_IN6 -m conntrack --ctstate ESTABLISHED,RELATED -j RETURN
+-A HY320_IN6 -s fe80::/10 -j RETURN
+-A HY320_IN6 -s fc00::/7 -j RETURN
+-A HY320_IN6 -p ipv6-icmp --icmpv6-type 1 -j RETURN
+-A HY320_IN6 -p ipv6-icmp --icmpv6-type 2 -j RETURN
+-A HY320_IN6 -p ipv6-icmp --icmpv6-type 3 -j RETURN
+-A HY320_IN6 -p ipv6-icmp --icmpv6-type 4 -j RETURN
+-A HY320_IN6 -s ::/128 -p ipv6-icmp --icmpv6-type 135 -m hl --hl-eq 255 -j RETURN
+-A HY320_IN6 -p udp --sport 547 --dport 546 -j RETURN

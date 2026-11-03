@@ -1,0 +1,15 @@
+# Owner-requested BADBOX/JM network restrictions.
+service hy320_badbox_guard /system/bin/sh /system/bin/hy320-badbox-guard.sh
+    disabled
+    oneshot
+    user root
+    group root inet net_admin
+
+on post-fs-data
+    start hy320_badbox_guard
+
+on property:init.svc.netd=running
+    start hy320_badbox_guard
+
+on property:sys.boot_completed=1
+    start hy320_badbox_guard

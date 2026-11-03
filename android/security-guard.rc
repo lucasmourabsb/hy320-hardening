@@ -1,0 +1,18 @@
+# Owner-requested local-network input guard and kernel restrictions.
+service hy320_security_guard /system/bin/sh /system/bin/hy320-security-guard.sh
+    disabled
+    oneshot
+    user root
+    group root inet net_admin
+
+on post-fs-data
+    start hy320_security_guard
+
+on property:init.svc.netd=running
+    start hy320_security_guard
+
+on property:sys.boot_completed=1
+    start hy320_security_guard
+
+on property:service.adb.tls.port=*
+    start hy320_security_guard
