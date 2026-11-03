@@ -1,0 +1,49 @@
+{
+  "purpose": "Historical observations from one variant; not a universal debloat recommendation",
+  "variant": "t950s_be311",
+  "historical_removed_for_user0": [
+    "com.ht1.launcher",
+    "com.smart.tv.launcher",
+    "com.master.apps",
+    "com.master.tv.market",
+    "com.overseas.store.appstore",
+    "com.fb",
+    "com.jm.jmlauncher",
+    "com.jiumao.screen.systemadplayer",
+    "com.define.shellservice",
+    "com.android.printspooler",
+    "com.android.wallpaperbackup",
+    "com.android.camera2",
+    "com.android.hotspot2.osulogin",
+    "com.android.soundpicker",
+    "com.android.htmlviewer",
+    "com.droidlogic.videoplayer",
+    "com.droidlogic.imageplayer",
+    "com.htc.htclauncherhighenglishd08",
+    "com.droidlogic.musicplayer",
+    "com.android.gallery3d",
+    "com.android.deskclock",
+    "com.google.android.syncadapters.calendar",
+    "com.google.android.syncadapters.contacts",
+    "com.google.android.atv.widget",
+    "com.google.android.tvrecommendations",
+    "com.google.android.katniss",
+    "com.google.android.leanbacklauncher"
+  ],
+  "hardware_components_preserved": [
+    "com.htc.htcsettings",
+    "com.softwinner.tcorrection",
+    "com.droidlogic.tvinput",
+    "com.droidlogic.android.tv",
+    "com.droidlogic.miracast",
+    "com.waxrain.airplayer2",
+    "com.droidlogic.inputmethod.remote",
+    "com.master.accessibility",
+    "com.droidlogic.FileBrower"
+  ],
+  "disabled_but_retained": [
+    "com.droidlogic.updater",
+    "com.droidlogic.appinstall",
+    "com.koushikdutta.superuser"
+  ]
+}
